@@ -330,7 +330,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Georgia", Times, serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -345,12 +345,17 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Arvo", Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 h1 {
   line-height: 71.03999999999999px;
   font-size: 48px;
   font-size: 4.8rem;
+}
+.site-title a{
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: center;
 }
 h2 {
   line-height: 50.32px;
@@ -458,6 +463,9 @@ a:active {
   display: block;
   margin: 0 auto;
 }
+.center {
+  text-align: center;
+}
 /* Header
 -------------------------------------------------------------- */
 header {
@@ -476,9 +484,7 @@ header .gravatar {
   float: right;
 }
 header #brand {
-  float: left;
-  width: 80%;
-  margin-top: 22px;
+
 }
 header #brand h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -501,7 +507,7 @@ header #brand h1 span {
   text-transform: lowercase;
 }
 header nav {
-  float: left;
+  float: right;
 }
 header nav ul {
   list-style: none;
@@ -534,7 +540,9 @@ article .title {
   line-height: 56.24px;
   font-size: 38px;
   font-size: 3.8rem;
-  font-weight: 700;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic; 
 }
 article .title a {
   text-decoration: none;
@@ -546,6 +554,7 @@ article .title a:hover {
 article .post-meta {
   margin-bottom: 40px;
   font-size: 14px;
+  text-align: center;
 }
 article .post-meta a {
   color: #888888;
@@ -559,7 +568,8 @@ article .the-content a {
   text-decoration: none;
 }
 article .the-content p {
-  color: #787878;
+  color: #191919;
+  text-align: justify;
 }
 article .the-content img {
   width: 100%;
@@ -573,7 +583,7 @@ article .meta {
   letter-spacing: .9px;
 }
 article .meta div {
-  float: left;
+  margin:1px auto;
 }
 article .meta .post-categories {
   list-style: none;
