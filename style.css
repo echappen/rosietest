@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 /*
-Theme Name: Less
-Theme URI: http://lessmade.com/themes/less
-Author: Jared Erickson
-Author URI: http://jarederickson.com
-Description: A super simple theme that can be customized using LESS variables
-Version: 1.1
+Theme Name: Rosie
+Theme URI: http://rosie-site.com
+Author: Eleni Chappen (with some reminders from J Beckman)
+Author URI: http://elenichappen.com
+Description: A super simple theme for a blog featuring Rose the Riveter
+Version: 1.0
 License: GNU General Public License
 
 */
@@ -13,10 +13,7 @@ License: GNU General Public License
 -------------------------------------------------------------- */
 /* Reset
 -------------------------------------------------------------- */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 html,
 body,
 div,
