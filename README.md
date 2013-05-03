@@ -3,9 +3,7 @@ Rosie Says
 
 A simple minimal WordPress theme built for the [Rosie Says](http://rosiesays.com/) blog.
 
-![Rosie screenshot](https://github.com/j-beckman/rosietest/blob/master/dev/screenshot.png?raw=true)
+![Rosie screenshot](https://raw.github.com/j-beckman/rosietest/master/screenshot.png)
 
 
-![Code Screenshot](https://github.com/alliswell/Less/blob/master/dev/less-screen-code.png?raw=true)
-
-Hi
+Hi « Eleni Chappen
