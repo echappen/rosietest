@@ -356,6 +356,7 @@ h1 {
   text-transform: uppercase;
   font-size: 4em;
   text-align: center;
+  letter-spacing: 0.5em;
 }
 h2 {
   line-height: 50.32px;
@@ -506,6 +507,9 @@ header #brand h1 span {
   text-transform: lowercase;
 }
 header nav {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.menu-main-nav-container {
   float: right;
 }
 header nav ul {
@@ -610,9 +614,21 @@ article .meta .post-categories li {
 }
 #pagination .past-page {
   float: right;
+  width: 49%;
+  text-align:right;
 }
 #pagination .next-page {
   float: left;
+  width: 50%;
+  border-right: 1px solid #ccc;
+  height: 200px;
+}
+.next-page a, .past-page a {
+  font-size: 2em;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding: 10%;
 }
 /* Comments */
 h3#comments {
