@@ -490,7 +490,6 @@ header #brand h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
   color: #565656;
-  line-height: 23.68px;
   font-size: 16px;
   font-size: 1.6rem;
   margin: 0;
@@ -543,6 +542,7 @@ article .title {
   font-weight: 300;
   text-align: center;
   font-style: italic; 
+  letter-spacing: 0.1em;
 }
 article .title a {
   text-decoration: none;
@@ -555,6 +555,9 @@ article .post-meta {
   margin-bottom: 40px;
   font-size: 14px;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 article .post-meta a {
   color: #888888;

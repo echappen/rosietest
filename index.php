@@ -62,6 +62,7 @@
 							</a>
 						</h1>
 						<div class="post-meta">
+							<?php the_time('m.d.Y') ?> | 
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
 									<?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) ); ?>
@@ -75,11 +76,12 @@
 							
 							<?php wp_link_pages(); ?>
 						</div><!-- the-content -->
-						
-						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); ?></div>
-							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
-						</div><!-- Meta -->
+						<?php if (false) : ?>
+							<div class="meta clearfix">
+								<div class="category"><?php echo get_the_category_list(); ?></div>
+								<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
+							</div><!-- Meta -->
+						<?php endif; ?>
 						
 					</article>
 
@@ -134,10 +136,12 @@
 							<?php wp_link_pages(); ?>
 						</div><!-- the-content -->
 						
-						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); ?></div>
-							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
-						</div><!-- Meta -->						
+						<?php if (false) : ?>
+							<div class="meta clearfix">
+								<div class="category"><?php echo get_the_category_list(); ?></div>
+								<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
+							</div><!-- Meta -->
+						<?php endif; ?>						
 						
 					</article>
 
