@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 /*
-Theme Name: Less
-Theme URI: http://lessmade.com/themes/less
-Author: Jared Erickson
-Author URI: http://jarederickson.com
-Description: A super simple theme that can be customized using LESS variables
-Version: 1.1
+Theme Name: Rosie
+Theme URI: http://rosie-site.com
+Author: Eleni Chappen (with some reminders from J Beckman)
+Author URI: http://elenichappen.com
+Description: A super simple theme for a blog featuring Rose the Riveter
+Version: 1.0
 License: GNU General Public License
 
 */
@@ -13,10 +13,7 @@ License: GNU General Public License
 -------------------------------------------------------------- */
 /* Reset
 -------------------------------------------------------------- */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 html,
 body,
 div,
@@ -333,7 +330,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Georgia", Times, serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -348,12 +345,18 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Arvo", Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 h1 {
   line-height: 71.03999999999999px;
   font-size: 48px;
   font-size: 4.8rem;
+}
+.site-title a{
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: 0.5em;
 }
 h2 {
   line-height: 50.32px;
@@ -461,6 +464,9 @@ a:active {
   display: block;
   margin: 0 auto;
 }
+.center {
+  text-align: center;
+}
 /* Header
 -------------------------------------------------------------- */
 header {
@@ -479,15 +485,12 @@ header .gravatar {
   float: right;
 }
 header #brand {
-  float: left;
-  width: 80%;
-  margin-top: 22px;
+
 }
 header #brand h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
   color: #565656;
-  line-height: 23.68px;
   font-size: 16px;
   font-size: 1.6rem;
   margin: 0;
@@ -504,7 +507,10 @@ header #brand h1 span {
   text-transform: lowercase;
 }
 header nav {
-  float: left;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.menu-main-nav-container {
+  float: right;
 }
 header nav ul {
   list-style: none;
@@ -537,7 +543,10 @@ article .title {
   line-height: 56.24px;
   font-size: 38px;
   font-size: 3.8rem;
-  font-weight: 700;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic; 
+  letter-spacing: 0.1em;
 }
 article .title a {
   text-decoration: none;
@@ -549,6 +558,10 @@ article .title a:hover {
 article .post-meta {
   margin-bottom: 40px;
   font-size: 14px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 article .post-meta a {
   color: #888888;
@@ -562,7 +575,8 @@ article .the-content a {
   text-decoration: none;
 }
 article .the-content p {
-  color: #787878;
+  color: #191919;
+  text-align: justify;
 }
 article .the-content img {
   width: 100%;
@@ -576,7 +590,7 @@ article .meta {
   letter-spacing: .9px;
 }
 article .meta div {
-  float: left;
+  margin:1px auto;
 }
 article .meta .post-categories {
   list-style: none;
@@ -600,9 +614,21 @@ article .meta .post-categories li {
 }
 #pagination .past-page {
   float: right;
+  width: 49%;
+  text-align:right;
 }
 #pagination .next-page {
   float: left;
+  width: 50%;
+  border-right: 1px solid #ccc;
+  height: 200px;
+}
+.next-page a, .past-page a {
+  font-size: 2em;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding: 10%;
 }
 /* Comments */
 h3#comments {
