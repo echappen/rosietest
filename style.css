@@ -513,6 +513,7 @@ header nav {
   float: right;
 }
 header nav ul {
+  float: right;
   list-style: none;
   margin: 0;
 }
@@ -733,4 +734,23 @@ html[xmlns] .clearfix {
   header hgroup {
     width: 100%;
   }
+}
+
+/* RosieSays Banner
+-------------------------------------------------------------- */
+
+.banner {
+  display: block;
+  width: 720px;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #170d95;
+  letter-spacing: 16px;
+  margin-top: 3px;
+  margin-bottom: 60px;
+
+
+
 }

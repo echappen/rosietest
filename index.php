@@ -7,6 +7,10 @@
 
 get_header(); // This fxn gets the header.php file and renders it ?>
 
+			<div class="banner">
+				ROSIE SAYS
+			</div>
+
 			<?php if ( have_posts() ) : 
 			// Do we have any posts in the databse that match our query?
 			// In the case of the home page, this will call for the most recent posts 
