@@ -39,11 +39,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<div id="bannerimage">
 <header id="masthead" class="site-header" role="banner">
 	<div class="container center">
-		
-		<img src="/Applications/MAMP/htdocs/wordpress/wp-content/themes/rosietest/rosie_banner_sm.jpg"/>
+
+		<img src="rosietest/rosie_transparent.png">
 
 		<nav role="navigation" class="site-navigation main-navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
@@ -55,6 +55,7 @@
 		
 		<div class="clear"></div>
 	</div><!--/container -->
+</div>
 		
 </header><!-- #masthead .site-header -->
 

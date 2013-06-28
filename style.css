@@ -471,7 +471,6 @@ a:active {
 -------------------------------------------------------------- */
 header {
   padding: 20px 0;
-  background: yellow;
   margin: 0px auto;
 }
 header .gravatar {
@@ -754,3 +753,9 @@ html[xmlns] .clearfix {
 
 
 }
+
+#bannerimage{
+text-align: center;
+margin-top: -35px;
+background: url("/rosie_transparent.png") top center no-repeat;
+background-size: cover;
